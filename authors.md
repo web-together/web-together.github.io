@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Authors
+image: /files/covers/author.jpg
 permalink: /authors/
 sitemap:
   priority: 0.7

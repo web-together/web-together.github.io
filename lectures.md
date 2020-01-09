@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 무료 제공 강의
-image: /files/covers/openapi.png
+title: 무료 강의
+image: /files/covers/lecture.jpg
 permalink: /lectures/
 sitemap: yes
 excerpt: 무료로 제공되는 강의 목록입니다.
