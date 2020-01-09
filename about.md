@@ -30,10 +30,11 @@ tags: []
  5. 튜토리얼을 포스팅하면 보증금 중 절반을 환불 받는다. 
  6. 마지막 웹서비스 런칭까지 마무리하게 되면 보증금 전액을 환불받는다. 
 
-> __[주차별 요약 자료]__
->
-> * [1주차 - 방향성, 심화 주제 키워드 주제 ](https://github.com/web-together/web-together.github.io/files/4039287/2020.pdf)
-
 ## 포스트 작성법
 
 ## 저자 등록법
+
+
+> __[주차별 요약 자료]__
+>
+> * [1주차 - 방향성, 심화 주제 키워드 주제 ](https://github.com/web-together/web-together.github.io/files/4039287/2020.pdf)
