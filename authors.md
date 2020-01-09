@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Authors
+title: 참여자 목록
 image: /files/covers/author.jpg
 permalink: /authors/
 sitemap:
