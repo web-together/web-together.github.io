@@ -11,7 +11,7 @@ tags: [lecture]
 ## django
   - [django 3.0, 무엇이 달라졌나](https://developers.kakao.com/features/platform#사용자관리)
 
-## Git 시리즈
+## Git 
   - [git으로 되돌리자](https://developers.kakao.com/features/kakao#카카오내비-API)
   - [git reset 실습](https://developers.kakao.com/features/kakao#카카오페이-API)
   - [버전 관리의 시작](https://developers.kakao.com/features/kakao#카카오톡-API)
@@ -20,7 +20,7 @@ tags: [lecture]
   - [git 협업 실습]()
   - [git 중간 과제]()
 
-## Crawling 시리즈
+## Crawling
   - [request, beautifulsoup 정적 페이지 크롤링](https://developers.kakao.com/features/kakao#카카오-링크)
   - [Selenium을 이용한 동적 크롤링](https://developers.kakao.com/features/kakao#카카오스토리-API)
   - [크롤링한 데이터 django db에 넣기](https://developers.kakao.com/features/kakao#카카오스토리-API)
