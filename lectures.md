@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 무료 강의
+title: 심화 강의
 image: /files/covers/lecture.jpg
 permalink: /lectures/
 sitemap: yes
