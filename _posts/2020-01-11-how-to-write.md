@@ -36,7 +36,7 @@ image: /files/authors/저자_사진.jpg
 저자로 등록이 되었다면 이제 글을 쓰면 됩니다. [`_posts` 폴더](https://github.com/web-together/web-together.github.io/tree/master/_posts)를 살펴보면 `날짜-제목.md` 형식의
 블로그 글들이 모여있음을 확인할 수 있습니다. 이 markdown 하나하나가 각각의 블로그 글이라고 보시면 됩니다.
 
-예를 들어, 오늘 날짜는 2020-01-12이므로 `_posts` 폴더 안에 `2020-01-12-test.md` 라는 이름으로 markdown 파일을 만들어봅시다.
+예를 들어, 오늘 날짜는 2020-01-12이므로 `_posts` 폴더 안에 `2020-01-12-test.md` 라는 형식으로 markdown 파일을 만들어볼 수 있겠네요.
 
 ### front matter
 
@@ -46,7 +46,7 @@ image: /files/authors/저자_사진.jpg
 >
 > 이 markdown은 블로그 글이야!
 
-를 파일 상단에 적어줌으로써 알려주어야 합니다. 이렇게 알려주는 문구를 [front matter](https://jekyllrb.com/docs/front-matter/)라고 합니다. 다른 블로그 글을 한 번 볼까요? 가령 지금 보고 계신 [이 블로그글](https://github.com/web-together/web-together.github.io/blob/master/_posts/2020-01-11-how-to-write.md)의 front matter를 봅시다.
+를 파일 상단에 적어줌으로써 알려주어야 합니다. 이렇게 알려주는 문구를 [front matter](https://jekyllrb.com/docs/front-matter/)라고 합니다. 다른 블로그 글을 한 번 볼까요? 가령 지금 보고 계신 [이 블로그글](https://raw.githubusercontent.com/web-together/web-together.github.io/master/_posts/2020-01-11-how-to-write.md)의 front matter를 봅시다.
 
 ```
 ---
@@ -60,15 +60,15 @@ tags: [introduction]
 
 이렇게 써 있네요. `layout:post`는 *이 markdown은 블로그 글이야* 하고 알려주는 부분이라고 보시면 됩니다.
 
-`title`은 블로그 제목입니다. 반드시 적어주어야겠죠? `author`는 앞서 등록한 본인의 이름을 적어주시면 되는데, 한글 이름이 아니라, `_authors`에 추가한 markdown 이름으로 적어주세요. 
+`title`은 블로그 제목입니다. 반드시 적어주어야겠죠? `author`는 앞서 등록한 본인의 이름을 적어주시면 되는데, 한글 이름(e.g. 강민철)이 아니라, `_authors`에 추가한 markdown 이름(e.g.minchul.kang)으로 적어주세요. 
 
 `date`는 날짜와 시간입니다. 형식에 맞게 적어주셔야 합니다. 
 
 `tags` 는 말 그대로 이 블로그의 태그입니다. 모든 글에는 `Tag` 가 붙습니다. 이 `Tag`는 해당 글의 주제를 키워드로 알려주고, 추후에 비슷한 `Tag (주제)` 끼리 모아볼 수 있게 하고,
-검색의 효과를 높이는 효용을 주기 때문에 작성한 글에 대한 적절한 키워드를 등록/기입해주어야 합니다.
+검색의 효과를 높이는 효용을 주기 때문에 작성한 글에 대한 적절한 키워드를 꼭 등록/기입해주어야 합니다.
 
 본인이 작성한 글에 대한 Tag가 이미 `_tags` 폴더에 등록이 되어 있다면, 그냥 적어주시면 됩니다. 
-이미 등록된 태그의 목록은 `_tags` 폴더를 보셔도 되고, [이 url (/tags) ](https://web-together.github.io/tags/)에서 확인하실 수도 있습니다.
+이미 등록된 태그의 목록은 [`_tags` 폴더](https://github.com/web-together/web-together.github.io/tree/master/_tags)를 보셔도 되고, [이 url (/tags) ](https://web-together.github.io/tags/)에서 확인하실 수도 있습니다.
 
 예를 들어 `introduction` 이라는 이름의 태그는 이미 `_tags` 안에 등록되어 있으므로, 
 그냥 아래와 같이 적어주시면 될 겁니다.
@@ -82,7 +82,7 @@ tags: [introduction]
 
 ### Tag 등록
 
-새로운 tag를 등록하기 위해서는 `_tags` 폴더 안에 `태그이름.md` 형식으로 markdown을 만든 뒤,
+새로운 tag를 등록하기 위해서는 [`_tags` 폴더](https://github.com/web-together/web-together.github.io/tree/master/_tags) 안에 `태그이름.md` 형식으로 markdown을 만든 뒤,
 그 안에 다음과 같은 내용을 채워주시면 됩니다.
 
 ```
@@ -100,16 +100,19 @@ title: '태그의 한글 이름'
 
 ### 사진, 코드 첨부하기
 
-글을 작성하시다가 사진을 이용하고 싶으실 떄가 있을 겁니다. 조금 뒤에 설명하겠지만, 행사, 컨퍼런스 후기, 각종 인터뷰 및 뉴스, 체험기 등은 사진이 많으면 좋지만, 기술적인 튜토리얼을 남기는 경우에는 꼭 필요한 경우를 제외하고는 사진의 사용을 최소화하는 것이 좋습니다.
+글을 작성하시다가 사진을 이용하고 싶으실 떄가 있을 겁니다. 하지만 여기서, 행사, 컨퍼런스 후기, 각종 인터뷰 및 뉴스, 체험기 등은 사진이 많으면 좋지만, 기술적인 튜토리얼에 해당하는 글에는 꼭 필요한 경우를 제외하고는 사진의 사용을 최소화하는 것이 좋습니다. 따라서,
 
 > 실행화면, 이해를 높이는 도식도 정도만 사진으로 표현합시다.
 > 
 > 특히, 코드는 사진이 아닌 markdown 문법으로 작성하는 것을 추천합니다. 
 
-독자들이 예제 코드를 드래그 해서 
+왜냐하면, 독자들이 예제 코드를 드래그 해서 
 쓰기에 용이하고, 키워드 검색 등에 유리하기 때문입니다.
 
-블로그에 사용할 사진은 `files` 파일에 저장하시면 됩니다.
+블로그에 사용할 사진은 [`files` 폴더](https://github.com/web-together/web-together.github.io/tree/master/files)에 저장하시면 됩니다.
+
+이건 필수는 아니지만, 
+사진 파일의 이름을 다른 사람과 겹치지 않도록 abc.jpg, xxx.jpg 등이 아닌, 자기이름-글제목-사진번호.jpg 와 같은 형식으로 업로드해주시면 감사하겠습니다.
 
 또한, 코드는 아래와 같이 작성하면 자동으로 언어-문법 별로 색깔(highlight)이 칠해집니다.
 
