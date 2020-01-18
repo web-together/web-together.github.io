@@ -38,6 +38,6 @@ tags: []
 > __[주차별 요약 자료]__
 >
 > * [1주차 - 방향성, 심화 주제 키워드 주제 ](https://github.com/web-together/web-together.github.io/files/4039287/2020.pdf)
-> * 2주차 - 라이선스, Slug, Url Reverse 
-        - [자료1](https://github.com/web-together/web-together.github.io/files/4076694/0115.pdf)
-        - [자료2](https://github.com/web-together/Django-Shop#preview)
+> * 2주차 - 라이선스, Slug, Url Reverse   
+    - [자료1](https://github.com/web-together/web-together.github.io/files/4076694/0115.pdf)
+    - [자료2](https://github.com/web-together/Django-Shop#preview)
