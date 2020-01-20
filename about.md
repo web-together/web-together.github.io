@@ -42,4 +42,5 @@ tags: []
     - [자료1](https://github.com/web-together/web-together.github.io/files/4076694/0115.pdf)
     - [자료2](https://github.com/web-together/Django-Shop#preview)
 > * 3주차 - Crawling 기초 (bs, selenium), Django Session
+> 
 > * 4주차 - Crawling 심화, 결제모듈 연동, 배포
