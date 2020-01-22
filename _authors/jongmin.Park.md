@@ -1,5 +1,5 @@
 ---
-name: jongmin_Park
+name: jongmin.Park
 title: 박종민
 image:
 ---
